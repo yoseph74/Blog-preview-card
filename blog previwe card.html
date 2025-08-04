@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>blog preview card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<style>
+    body {
+        background-color: #f4d04e;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        font-family: "Figtree", sans-serif;
+    }
+    .container {
+        width: 375px;
+        height: 530px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        background-color: white;
+        border-radius: 15px;
+        margin: auto;
+        box-shadow: 15px 15px 10px black;
+
+    }
+    img {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        align-items: center;
+        margin: auto;
+        position: absolute;
+        top: 70px;
+        border-radius: 13px;
+    }
+    h2 {
+        text-align: left;
+        margin-right: 250px;
+    }
+    .tag {
+        background-color: #f4d04e;
+        color: black;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-size: 15px;
+        text-align: left;
+        margin-right: 250px;
+        margin-top: 120px;
+        margin-bottom: 0;
+        font-family: "Figtree", sans-serif;
+    }
+    p {
+        text-align: right;
+        margin-right: 160px;
+        margin-bottom: 0;
+        margin-top: 20px;
+        font-family: "Figtree", sans-serif;
+    }
+    h3 {
+        text-align: right;
+        margin-right: 70px;
+        margin-bottom: 13px;
+        margin-top: 15px;
+        font-family: "Figtree", sans-serif;
+        font-size: 22px;
+    }
+    .description {
+        font-size: 14px;
+        color: #555;
+        line-height: 1.5;
+        text-align: left;
+        margin-top: 0;
+        margin-right: 55px;
+    }
+    .nokia {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        align-items: center;
+        margin-right: 335px;
+        position: absolute;
+        top: 420px;
+    }
+    .author {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 15px;
+        position: absolute;
+        top: 485px;
+        font-size: 17px;
+        font-weight: bold;
+        text-align: right;
+        margin-right: 2px;
+        margin-left: 80px;
+    }
+</style>
+<body>
+<div class="container">
+    <img src="assets/images/illustration-article.svg" alt="">
+    <p class="tag">Learning</p>
+    <p>Published 21 Dec 2023</p>
+    <h3>HTML & CSS foundations</h3>
+    <p class="description">
+        These languages are the backbone of every<br>website, defining structure, content, and<br>presentation.
+    </p>
+    <div class="author">
+        <p class="name">Greg Hooper</p>
+    </div>
+    <div class="nokia">
+        <img src="assets/images/image-avatar.webp" alt="avatar" class="avatar">
+    </div>
+</div>
+</body>
+</html>
